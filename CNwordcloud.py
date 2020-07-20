@@ -64,7 +64,7 @@ print(keywords)
 
 #词云的一系列设置，尺寸，背景颜色，字体和词的数量
 w = WordCloud(
-    width = 1000, height = 700,
+    width = 540, height = 1040,
     background_color = "white",
     #设置字体，不然会出现口字乱码，文字的路径是电脑的字体一般路径，可以换成别的
     font_path=fontpath,
